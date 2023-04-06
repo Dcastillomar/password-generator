@@ -52,7 +52,7 @@ function generatePassword() {
     randomPassword += combinedStrings[randomIndex];
 
   }
-
+//connects result to webpage action
   return randomPassword;
 
   
