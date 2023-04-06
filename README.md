@@ -25,3 +25,5 @@ This webpage contains a button to be pressed starting a series of question for t
 ##License
 
 Please refer to the License in the repo.
+
+![Alt text](Assets/Screenshot%202023-04-06%20165925.png)
