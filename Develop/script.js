@@ -25,7 +25,7 @@ function generatePassword() {
   var combinedStrings = '';
   var randomPassword = '';
 
-
+//concatenate combinedStrings with global variables
   if (numbers) {
     combinedStrings += numbersOptions;
   }
@@ -42,13 +42,20 @@ function generatePassword() {
     combinedStrings += special;
   }
 
- combinedStrings = combinedStrings.split('');
-var randomIndex= Math.floor(Math.random() * combinedStrings.length);
+  combinedStrings = combinedStrings.split('');
 
+  //loop and concatenate randomIndex into random password
+  for (let i = 0; i < passwordLength; i++) {
+    var randomIndex = (Math.floor(Math.random() * combinedStrings.length));
+    console.log(combinedStrings[randomIndex]);
 
- console.log(combinedStrings[randomIndex])
+    randomPassword += combinedStrings[randomIndex];
 
- //loop
+  }
+
+  return randomPassword;
+
+  
 
 
 }
@@ -67,17 +74,9 @@ function passwordSelector() {
   uppercase = confirm('Uppercase Letters?');
   otherCharacters = confirm('Special Characters?');
 
- 
-
-  //var functionArray = {
-    //getNumbers: function () { return combinedStrings.charAt(Math.floor(Math.random() * 128));
 
 
-
-    
-
-
-// Add event listener to generate button
+  // Add event listener to generate button
 
 
 }
