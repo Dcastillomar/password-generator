@@ -18,8 +18,9 @@ This webpage contains a button to be pressed starting a series of question for t
 
 ##Credits
 
-Jaytee Padilla, my tutor from the BootCamp Tutoring Team
-Ethan Cho, the TA for my UT bootcamp course
+-Jaytee Padilla, my tutor from the BootCamp Tutoring Team
+
+-Ethan Cho, the TA for my UT bootcamp course
 
 ##License
 
